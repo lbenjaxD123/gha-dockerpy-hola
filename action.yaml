@@ -2,7 +2,6 @@ name: 'Di hola'
 description: 'Saludar desde Docker python'
 inputs:
   nombre:
-    description: 'Tu nombre'
     required: false
     default: 'John Doe'
     description: 'Tu nombre para saludar'
@@ -14,4 +13,3 @@ runs:
     using: 'docker'
     # Si queremos apuntar a una imagen de dockerhub: Ej 'docker://python:3.8'
     image: 'Dockerfile' 
-
